@@ -93,6 +93,11 @@ The DWIM behaviour of this command is as follows:
   :config
   (evil-override-mode 1))
 
+(with-eval-after-load 'evil-maps
+  (define-key evil-normal-state-map (kbd "M-.") nil)
+  (define-key evil-visual-state-map (kbd "M-.") nil))
+
+
 (use-package smartparens
   :ensure smartparens  ;; install the package
   :hook (prog-mode text-mode markdown-mode) ;; add `smartparens-mode` to these hooks
@@ -322,3 +327,7 @@ The DWIM behaviour of this command is as follows:
   (("M-s M-s" . rg-dwim)
    ("M-s s" . rg-dwim)
    ("M-s S" . rg)))
+
+(use-package ggtags
+  :ensure t
+  :hook ((c-mode c++-mode) . ggtags-mode))

@@ -3,7 +3,7 @@
 (tool-bar-mode -1)
 (setq inhibit-startup-screen t)
 (setq make-backup-files nil)
-(setq global-display-line-numbers 'relative)
+(setq display-line-numbers-type 'relative)
 (global-display-line-numbers-mode 1)
 
 
