@@ -4,10 +4,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(centered-cursor-mode consult corfu dired-subtree evil-collection
-			  evil-snipe evil-surround gruber-darker-theme
-			  helpful magit marginalia minions
-			  modus-themes nerd-icons-completion
+   '(centered-cursor-mode citre consult corfu dired-subtree
+			  evil-collection evil-snipe evil-surround
+			  gruber-darker-theme helpful magit marginalia
+			  minions modus-themes nerd-icons-completion
 			  nerd-icons-corfu nerd-icons-dired orderless
 			  rg smartparens trashed vertico)))
 (custom-set-faces
