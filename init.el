@@ -91,7 +91,8 @@ The DWIM behaviour of this command is as follows:
   :ensure t
   :after evil
   :config
-  (evil-override-mode 1))
+  (evil-snipe-mode 1)
+  (evil-snipe-override-mode 1))
 
 (with-eval-after-load 'evil-maps
   (define-key evil-normal-state-map (kbd "M-.") nil)
