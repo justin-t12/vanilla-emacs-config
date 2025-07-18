@@ -119,6 +119,7 @@ The DWIM behaviour of this command is as follows:
 
 
 (global-hl-line-mode 1)
+(toggle-truncate-lines 1)
 
 ;; Themes
 (use-package modus-themes
