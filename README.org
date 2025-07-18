@@ -1,2 +1,0 @@
-* Vanilla Emacs Config
-My (attempt at a) vanilla Emacs config.
